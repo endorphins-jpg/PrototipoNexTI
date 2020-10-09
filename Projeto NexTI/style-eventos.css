@@ -1,0 +1,101 @@
+body{
+    background: #ffffff;
+    margin: 0px;
+    padding: 40px 0 400px 0;
+}
+
+nav {
+	width: 100%;
+	background: #0081BC;
+	position: fixed;
+	top: 0;
+    z-index: 100;
+    
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav a {
+	padding: 10px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.4em;
+}
+
+nav a:hover {
+	color: #FFC500;
+}
+
+h1, h2, a {
+	font-family: arial,sans-serif;
+	color: #1A5985;
+}
+
+h1 {
+	text-align: center;
+    margin-top: 100px;
+}
+
+h1:hover {
+    color: #FFC500;
+}
+
+p {
+	font-family: arial,sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+section {
+	max-width: 800px;
+	margin: 100px auto;
+}
+
+section::after, section::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.grid-text {
+	width: calc(60% - 40px);
+}
+
+.grid-img {
+	width: calc(40% - 40px);
+}
+
+section > div {
+	margin: 0 20px;
+	float: left;
+}
+
+section img {
+	margin-top: 20px;
+}
+
+.img-right {
+	text-align: right;
+}
+
+div a {
+	display: block;
+	max-width: 120px;
+	text-align: center;
+	border: 2px solid;
+	text-decoration: none;
+	padding: 8px 20px 10px 20px;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+
+div a:hover {
+	background: #FFC500;
+	color: white;
+}
